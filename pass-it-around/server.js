@@ -6,10 +6,10 @@ const PORT = 3010;
 
 // Take one Down and Pass it Around
 
-app.get('/number_of_bottles', (request, response) =>{
+app.get('/:number_of_bottles', (request, response) =>{
     console.log("99 bottles of beer on the wall")
     response.send("99 bottles of beer on the wall")
-    <a href="take one down, pass it around
+    <a href=""><button>take one down, pass it around</button></a> 
 
 })
 
